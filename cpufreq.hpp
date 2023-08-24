@@ -6,9 +6,9 @@
 #include <fstream>
 #include <filesystem>
 
-namespace fs = std::filesystem;
 
 namespace cpufreq_cpp{
+namespace fs = std::filesystem;
 struct Unit { 
     std::string name;
     std::string path;
